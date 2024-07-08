@@ -1,0 +1,274 @@
+Table Name,Column Name,Original Data Type,Target AirTable Data Type,Key Type,Example Data
+ChecklistMessageUsers,CheckListUserId,varchar,Single line text,Primary,bK1ruRbv
+ChecklistMessageUsers,GroupId,varchar,Single line text,,kbILQ3Jl
+ChecklistMessageUsers,UserId,varchar,Single line text,,TZ4htEuj
+ChecklistMessageUsers,CheckListId,varchar,Single line text,Secondary,KrCi5gSv
+ChecklistMessageUsers,CreatedDate,datetime,Date,,2021-05-21 00:00:00
+ChecklistMessageUsers,UpdatedDate,datetime,Date,,2021-04-30 00:00:00
+ChecklistMessageUsers,createdby,varchar,Single line text,,yZajMKvg
+ChecklistMessageUsers,updatedby,varchar,Single line text,,0X97iY2f
+ChecklistMessageUsers,IsDelete,bit,Checkbox,,True
+ChecklistMessageUsers,IsSent,bit,Checkbox,,False
+ChecklistMessageUsers,SentTime,datetime,Date,,2022-03-20 00:00:00
+ChecklistMessageUsers,IsError,bit,Checkbox,,False
+ChecklistMessageUsers,ErrorDetail,varchar,Single line text,,GDY76vKn
+ChecklistMessageUsers,Status,varchar,Single line text,,yGf5Bu9H
+ChecklistMessageUsers,UserResponse,varchar,Single line text,,HJ2wSGc8
+ChecklistMessageUsers,Readcount,int,Number,,3
+ChecklistMessageUsers,MessageStatus,varchar,Single line text,,VZE8LrGM
+MessagePollOptions,PollOptionId,varchar,Single line text,Primary,XNyweVqt
+MessagePollOptions,OptionNumber,int,Number,,24
+MessagePollOptions,MessageDetailId,varchar,Single line text,Secondary,rNZY647s
+MessagePollOptions,PollOptionName,varchar,Single line text,,S1yFAPf5
+MessagePollOptions,CreatedDate,datetime,Date,,2022-08-17 00:00:00
+MessagePollOptions,UpdatedDate,datetime,Date,,2020-03-10 00:00:00
+MessagePollOptions,createdby,varchar,Single line text,,MC3ul1KQ
+MessagePollOptions,updatedby,varchar,Single line text,,x3eWhxsw
+MessagePollOptions,IsDelete,bit,Checkbox,,False
+SubCategory,CategoryId,varchar,Single line text,Secondary,lBGBaGeY
+SubCategory,SubCategoryName,nvarchar,Single line text,,PyuMNUI4
+SubCategory,createddate,datetime,Date,,2021-07-13 00:00:00
+SubCategory,updateddate,datetime,Date,,2022-03-04 00:00:00
+SubCategory,createdby,varchar,Single line text,,UjZaTMdz
+SubCategory,updatedby,varchar,Single line text,,zgN6bSzm
+SubCategory,IsDelete,bit,Checkbox,,False
+ChecklistMessage,Id,varchar,Single line text,Primary,f8x517ZZ
+ChecklistMessage,SendTo,nvarchar,Single line text,,ViljmtD9
+ChecklistMessage,MessageText,nvarchar,Single line text,,VjZO1ZtT
+ChecklistMessage,ScheduleMessage,bit,Checkbox,,True
+ChecklistMessage,SendDate,datetime,Date,,2022-09-06 00:00:00
+ChecklistMessage,CheckListId,varchar,Single line text,Secondary,yP2NkowK
+ChecklistMessage,CreatedDate,datetime,Date,,2021-12-04 00:00:00
+ChecklistMessage,UpdatedDate,datetime,Date,,2021-09-08 00:00:00
+ChecklistMessage,createdby,varchar,Single line text,,kMffgoVe
+ChecklistMessage,updatedby,varchar,Single line text,,GLD0XIcz
+ChecklistMessage,IsDelete,bit,Checkbox,,False
+ChecklistMessage,Status,varchar,Single line text,,jCNqgF0O
+ChecklistMessage,MessageTitle,nvarchar,Single line text,,rFAYqYm1
+License,LicensesId,varchar,Single line text,Primary,vDLskTsq
+License,UserId,nvarchar,Single line text,Secondary,jRRUI2zx
+License,LicenseTitle,nvarchar,Single line text,,Cbn9KU7j
+License,LicenseDate,datetime,Date,,2022-06-06 00:00:00
+License,LicenseExpireDate,datetime,Date,,2022-10-06 00:00:00
+License,FileName,nvarchar,Single line text,,giw2njQG
+License,createddate,datetime,Date,,2022-01-21 00:00:00
+License,updateddate,datetime,Date,,2020-07-17 00:00:00
+License,createdby,varchar,Single line text,,b6j9LVMY
+License,updatedby,varchar,Single line text,,ogJRQwRt
+License,IsDelete,bit,Checkbox,,True
+License,SubCategoryId,varchar,Single line text,Secondary,Hwf40Ybu
+License,CategoryId,varchar,Single line text,Secondary,CRJiicbf
+License,GrantedBy,varchar,Single line text,,GA81gihh
+SurveyMessageUsers,SurveyUserId,varchar,Single line text,Primary,U8VgPrOl
+SurveyMessageUsers,SurveyMessageId,varchar,Single line text,Secondary,WwHmjt49
+SurveyMessageUsers,GroupId,varchar,Single line text,,6IpzIcru
+SurveyMessageUsers,UserId,varchar,Single line text,,JkWpL1XV
+SurveyMessageUsers,CreatedDate,datetime,Date,,2022-04-04 00:00:00
+SurveyMessageUsers,UpdatedDate,datetime,Date,,2022-03-11 00:00:00
+SurveyMessageUsers,createdby,varchar,Single line text,,Htod2iWn
+SurveyMessageUsers,updatedby,varchar,Single line text,,rcuefrtv
+SurveyMessageUsers,IsDelete,bit,Checkbox,,False
+SurveyMessageUsers,IsSent,bit,Checkbox,,False
+SurveyMessageUsers,SentTime,datetime,Date,,2020-06-05 00:00:00
+SurveyMessageUsers,IsError,bit,Checkbox,,False
+SurveyMessageUsers,ErrorDetail,varchar,Single line text,,UjtKeRht
+SurveyMessageUsers,Status,varchar,Single line text,,LQc3IbPD
+SurveyMessageUsers,UserResponse,varchar,Single line text,,4kGa7lUZ
+SurveyMessageUsers,Readcount,int,Number,,31
+SurveyMessageUsers,MessageStatus,varchar,Single line text,,CuR0cw4t
+MessageDetail,Id,varchar,Single line text,Primary,XEpzUFGQ
+MessageDetail,SendTo,nvarchar,Single line text,,m4h2PgnS
+MessageDetail,MessageType,varchar,Single line text,,3KLk1sRz
+MessageDetail,MessageText,nvarchar,Single line text,,rGkM9tP5
+MessageDetail,ScheduleMessage,bit,Checkbox,,False
+MessageDetail,SendDate,datetime,Date,,2021-03-10 00:00:00
+MessageDetail,IsUrgent,bit,Checkbox,,False
+MessageDetail,IsAttachments,bit,Checkbox,,False
+MessageDetail,Attachments,nvarchar,Single line text,,cOOjNvap
+MessageDetail,Link,nvarchar,Single line text,,W96YcdWU
+MessageDetail,CreatedDate,datetime,Date,,2021-01-29 00:00:00
+MessageDetail,UpdatedDate,datetime,Date,,2020-02-21 00:00:00
+MessageDetail,createdby,varchar,Single line text,,YthAqgjm
+MessageDetail,updatedby,varchar,Single line text,,jiyb9G28
+MessageDetail,IsDelete,bit,Checkbox,,False
+MessageDetail,Status,varchar,Single line text,,EYQkVCds
+MessageDetail,MessageTitle,nvarchar,Single line text,,C9GsxJgy
+MessageDetail,ReqId,varchar,Single line text,Secondary,QlaAWvyB
+MessageDetail,SlotId,varchar,Single line text,Secondary,Pka310Q8
+Requirements,Id,varchar,Single line text,Primary,pLQ4wBuq
+Requirements,ReqName,varchar,Single line text,,0IyPQEwR
+Requirements,AppointmentType,varchar,Single line text,Secondary,POzlH6Dx
+Requirements,Speciality,varchar,Single line text,Secondary,r8bjoiCk
+Requirements,Status,varchar,Single line text,,elr2fXrF
+Requirements,Notes,nvarchar,Single line text,,LHmiViKC
+Requirements,RecordStatus,nvarchar,Single line text,,9xLmT0z1
+Requirements,CreatedDate,datetime,Date,,2020-05-11 00:00:00
+Requirements,UpdatedDate,datetime,Date,,2021-11-02 00:00:00
+Requirements,createdby,varchar,Single line text,,sTHOeSzE
+Requirements,updatedby,varchar,Single line text,,PktcY1Wn
+Requirements,IsDelete,bit,Checkbox,,False
+SurveyMessage,Id,varchar,Single line text,Primary,fTDZwV9X
+SurveyMessage,SendTo,nvarchar,Single line text,,OB5YDLrf
+SurveyMessage,MessageText,nvarchar,Single line text,,5oBkfTtE
+SurveyMessage,ScheduleMessage,bit,Checkbox,,True
+SurveyMessage,SendDate,datetime,Date,,2022-02-21 00:00:00
+SurveyMessage,SurveyId,varchar,Single line text,Secondary,msX7OnCI
+SurveyMessage,CreatedDate,datetime,Date,,2022-04-08 00:00:00
+SurveyMessage,UpdatedDate,datetime,Date,,2022-12-14 00:00:00
+SurveyMessage,createdby,varchar,Single line text,,PHdPt9vw
+SurveyMessage,updatedby,varchar,Single line text,,fZ5sC0LS
+SurveyMessage,IsDelete,bit,Checkbox,,True
+SurveyMessage,Status,varchar,Single line text,,soHyW8MR
+SurveyMessage,MessageTitle,nvarchar,Single line text,,DhTkurge
+AppointmentType,Id,varchar,Single line text,Primary,uARHz6QQ
+AppointmentType,Name,varchar,Single line text,,ijSep6eq
+AppointmentType,createdby,varchar,Single line text,,PhhLM1BI
+AppointmentType,createddate,datetime,Date,,2022-03-16 00:00:00
+AppointmentType,updatedby,varchar,Single line text,,E4cWNf9N
+AppointmentType,updateddate,datetime,Date,,2021-04-16 00:00:00
+AppointmentType,IsDelete,bit,Checkbox,,True
+MessageGroups,MessageGroupId,varchar,Single line text,Primary,wZPZUWKK
+MessageGroups,MessageGroupName,varchar,Single line text,,NRYndn8r
+MessageGroups,MessageGroupDescription,varchar,Single line text,,mOQPOfKZ
+MessageGroups,CreatedDate,datetime,Date,,2022-10-30 00:00:00
+MessageGroups,UpdatedDate,datetime,Date,,2022-09-19 00:00:00
+MessageGroups,createdby,varchar,Single line text,,VY0gYXPL
+MessageGroups,updatedby,varchar,Single line text,,BlDyZNS4
+MessageGroups,IsDelete,bit,Checkbox,,True
+Slots,SlotId,varchar,Single line text,Primary,7hjbNtHN
+Slots,ReqId,varchar,Single line text,Secondary,fmqCF9oz
+Slots,SlotDateTime,datetime,Date,,2020-08-17 00:00:00
+Slots,SlotCapacity,int,Number,,100
+Slots,SlotUsed,int,Number,,98
+Slots,SupervisorAccess,bit,Checkbox,,True
+Slots,AppUserAccess,bit,Checkbox,,True
+Slots,SlotNote,nvarchar,Single line text,,swRHGz1b
+Slots,RecordStatus,nvarchar,Single line text,,8nco4s1I
+Slots,CreatedDate,datetime,Date,,2022-08-23 00:00:00
+Slots,UpdatedDate,datetime,Date,,2022-05-25 00:00:00
+Slots,createdby,varchar,Single line text,,jljJBQKi
+Slots,updatedby,varchar,Single line text,,hayCdGGY
+Slots,IsDelete,bit,Checkbox,,True
+Survey,SurveyId,varchar,Single line text,Primary,wHxQfrM7
+Survey,SurveyName,nvarchar,Single line text,,Ea72M4SB
+Survey,SurveyDescription,nvarchar,Single line text,,J0qjVLDj
+Survey,SurveyType,nvarchar,Single line text,,gIzvi5j3
+Survey,CreatedDate,datetime,Date,,2020-06-11 00:00:00
+Survey,UpdatedDate,datetime,Date,,2022-11-22 00:00:00
+Survey,createdby,varchar,Single line text,,5Bjqo4Bs
+Survey,updatedby,varchar,Single line text,,Xqa5Fl19
+Survey,IsDelete,bit,Checkbox,,False
+Checklist,CheckListId,varchar,Single line text,Primary,YubIqjtJ
+Checklist,CheckListName,nvarchar,Single line text,,hb6DYxhf
+Checklist,CheckListType,nvarchar,Single line text,,8HCSSseW
+Checklist,CreatedDate,datetime,Date,,2021-10-25 00:00:00
+Checklist,UpdatedDate,datetime,Date,,2021-08-01 00:00:00
+Checklist,createdby,varchar,Single line text,,dhhXE594
+Checklist,updatedby,varchar,Single line text,,g4vowEse
+Checklist,IsDelete,bit,Checkbox,,True
+AspNetUsers,Id,varchar,Single line text,Primary,4CXSOkC7
+AspNetUsers,First_name,varchar,Single line text,,ejCMMw0R
+AspNetUsers,Last_name,varchar,Single line text,,Jgwh7QzB
+AspNetUsers,Email,varchar,Single line text,,yY5GndOl
+AspNetUsers,DoDId,varchar,Single line text,,wuoCG0xa
+AspNetUsers,CreatedDate,datetime,Date,,2020-06-16 00:00:00
+AspNetUsers,UpdatedDate,datetime,Date,,2020-07-01 00:00:00
+AspNetUsers,createdby,varchar,Single line text,,EnQ7ndz6
+AspNetUsers,updatedby,varchar,Single line text,,r7TPGgVb
+AspNetUsers,EmailConfirmed,bit,Checkbox,,True
+AspNetUsers,PasswordHash,varchar,Single line text,,NSEQDnG4
+AspNetUsers,SecurityStamp,varchar,Single line text,,9pduXKSz
+AspNetUsers,PhoneNumber,varchar,Single line text,,Wzxoi38R
+AspNetUsers,PhoneNumberConfirmed,bit,Checkbox,,True
+AspNetUsers,TwoFactorEnabled,bit,Checkbox,,True
+AspNetUsers,LockoutEndDate,datetime,Date,,2022-03-07 00:00:00
+AspNetUsers,LockoutEnabled,bit,Checkbox,,False
+AspNetUsers,AccessFailedCount,int,Number,,90
+AspNetUsers,UserName,varchar,Single line text,,thV41nsK
+AspNetUsers,Name,varchar,Single line text,,4R6nYQyU
+AspNetUsers,Location,varchar,Single line text,,KSWSkHVf
+AspNetUsers,Discriminator,varchar,Single line text,,1qG4xhhr
+AspNetUsers,IsDeleted,bit,Checkbox,,False
+AspNetUsers,IsActive,bit,Checkbox,,False
+AspNetUsers,ActivationEmail,bit,Checkbox,,False
+AspNetUsers,EmailSent,bit,Checkbox,,True
+AspNetUsers,MilitaryEmail,varchar,Single line text,,B4yk5JLL
+AspNetUsers,CivilianEmail,varchar,Single line text,,yneyqvPD
+AspNetUsers,DefenseIDNumber,varchar,Single line text,,8gOwSvBc
+AspNetUsers,ProfilePicture,varchar,Single line text,,FhiasQE0
+AspNetUsers,Speciality,varchar,Single line text,,WchZYAyD
+AspNetUsers,EmailNotification,bit,Checkbox,,True
+AspNetUsers,MobileNotification,bit,Checkbox,,False
+AspNetUsers,WebNotification,bit,Checkbox,,True
+AspNetUsers,AccountIsActive,bit,Checkbox,,True
+AspNetRoles,Id,varchar,Single line text,Primary,mmzafed6
+AspNetRoles,Name,varchar,Single line text,,P3o7eXT9
+AspNetRoles,Description,nvarchar,Single line text,,9ZJ4vlJD
+AspNetRoles,CreatedDate,datetime,Date,,2021-08-05 00:00:00
+AspNetRoles,UpdatedDate,datetime,Date,,2022-02-26 00:00:00
+AspNetRoles,createdby,varchar,Single line text,,mahfEtUS
+AspNetRoles,updatedby,varchar,Single line text,,oCOjio1I
+AspNetRoles,ConcurrencyStamp,varchar,Single line text,,h8ZGyLUS
+AspNetRoles,NormalizedName,varchar,Single line text,,GwDlYv5E
+AspNetRoles,ShowinList,bit,Checkbox,,True
+AspNetRoles,Permissions,nvarchar,Single line text,,5LhZHtlS
+AspNetUserRoles,UserRoleId,varchar,Single line text,Primary,CgGHrLRh
+AspNetUserRoles,UserId,varchar,Single line text,Secondary,DJpVSXS1
+AspNetUserRoles,RoleId,varchar,Single line text,Secondary,uISOujWi
+AspNetUserRoles,CreatedDate,datetime,Date,,2022-08-30 00:00:00
+AspNetUserRoles,UpdatedDate,datetime,Date,,2021-11-02 00:00:00
+AspNetUserRoles,createdby,varchar,Single line text,,J0JF5zPz
+AspNetUserRoles,updatedby,varchar,Single line text,,N6kBcr08
+AspNetUserRoles,IsDelete,bit,Checkbox,,False
+Category,CategoryId,varchar,Single line text,Primary,CZlsT6to
+Category,CategoryName,nvarchar,Single line text,,686Vg2a9
+Category,createddate,datetime,Date,,2021-09-11 00:00:00
+Category,updateddate,datetime,Date,,2022-05-07 00:00:00
+Category,createdby,varchar,Single line text,,wiWxsd4k
+Category,updatedby,varchar,Single line text,,U6rsaHul
+Category,IsDelete,bit,Checkbox,,False
+WorkExperience,WorkId,varchar,Single line text,Primary,TW1Ujfk5
+WorkExperience,UserId,nvarchar,Single line text,Secondary,lsjIMhIh
+WorkExperience,JobTitle,nvarchar,Single line text,,tN0nP0y2
+WorkExperience,WorkStartDate,datetime,Date,,2021-01-14 00:00:00
+WorkExperience,WorkEndDate,datetime,Date,,2021-08-30 00:00:00
+WorkExperience,WorkDescription,nvarchar,Single line text,,n5lWhMgn
+WorkExperience,CategoryId,varchar,Single line text,Secondary,QpKvDL2z
+WorkExperience,WorkType,varchar,Single line text,,t4HmIO6t
+WorkExperience,FileName,nvarchar,Single line text,,x5d9Ym3x
+WorkExperience,SubCategoryId,varchar,Single line text,Secondary,9rc0ul7N
+WorkExperience,CompanyName,varchar,Single line text,,W9dLL4vh
+WorkExperience,createddate,datetime,Date,,2021-11-02 00:00:00
+WorkExperience,updateddate,datetime,Date,,2020-04-26 00:00:00
+WorkExperience,createdby,varchar,Single line text,,i7nezQ2d
+WorkExperience,updatedby,varchar,Single line text,,tYqWstnb
+WorkExperience,IsDelete,bit,Checkbox,,False
+Education,EducationId,varchar,Single line text,Primary,B0cnEWa7
+Education,UserId,nvarchar,Single line text,Secondary,YThYu1sc
+Education,NameoftheAccreditedSchool,nvarchar,Single line text,,YNyxBQad
+Education,CertificateEarned,nvarchar,Single line text,,A3uGSjQc
+Education,FieldofStudy,nvarchar,Single line text,,uXJrwxrD
+Education,GraduationYear,datetime,Date,,2021-12-23 00:00:00
+Education,FileName,nvarchar,Single line text,,wj4CrFCQ
+Education,createddate,datetime,Date,,2020-11-06 00:00:00
+Education,updateddate,datetime,Date,,2020-10-13 00:00:00
+Education,createdby,varchar,Single line text,,XFGKUmZ7
+Education,updatedby,varchar,Single line text,,qIT5Jmxu
+Education,IsDelete,bit,Checkbox,,True
+Education,SubCategoryId,varchar,Single line text,Secondary,ldECl2p2
+Education,CategoryId,varchar,Single line text,Secondary,OrcrS8pb
+Designation,DesignationId,varchar,Single line text,Primary,EI3nbEhD
+Designation,UserId,nvarchar,Single line text,Secondary,aPfrQGvQ
+Designation,DesignationTitle,nvarchar,Single line text,,9IQ7lHRO
+Designation,DesignationDate,datetime,Date,,2021-04-10 00:00:00
+Designation,DesignationDescription,nvarchar,Single line text,,CL8dQqnK
+Designation,FileName,nvarchar,Single line text,,22Lphe3i
+Designation,createddate,datetime,Date,,2020-02-24 00:00:00
+Designation,updateddate,datetime,Date,,2021-09-06 00:00:00
+Designation,createdby,varchar,Single line text,,T28ySwFi
+Designation,updatedby,varchar,Single line text,,6tP707cD
+Designation,IsDelete,bit,Checkbox,,False
+Designation,SubCategoryId,varchar,Single line text,Secondary,P6BvIcfl
+Designation,CategoryId,varchar,Single line text,Secondary,iR9Jc8cd
+Designation,GrantedBy,varchar,Single line text,,eTYnZ8Oy
+Designation,ExpirationDate,datetime,Date,,2020-05-26 00:00:00
