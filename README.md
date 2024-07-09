@@ -1,3 +1,3 @@
 # csvAirtable
 
-team work makes the dream work
+pipeline that syncs csv data from aflinx tables into airtable
