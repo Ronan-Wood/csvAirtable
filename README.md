@@ -13,6 +13,7 @@ pipeline that syncs csv data from aflinx tables into airtable
 
 
 ## prompt for chatgpt to create synthetic data:
+### ASPNETUSERS
 The attached file is a csv containing the following fields:
 - Id (unique number)
 - First_name (string)
@@ -53,3 +54,12 @@ The attached file is a csv containing the following fields:
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
 The csv attached has one row of data for you to use as an example.
 Output a csv
+
+### EDUCATION
+The attached file is a csv containing the following fields:
+
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+
