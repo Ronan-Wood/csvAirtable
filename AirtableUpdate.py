@@ -1,9 +1,12 @@
-import re
-import csv, requests
+import csv, requests, os
+from dotenv import load_dotenv
 import pandas as pd
+from changeName import changeName
 
-BASE_ID = 'app03GWdFHFCFlo9u'
-API_TOKEN = 'patMZxQ6JlBQ7YVUg.c111ec56ffecc8ff310f3db53ac7ff65f215fcbcd83550f7c4d7d38b3260fec5'
+
+load_dotenv()
+BASE_ID = os.getenv('BASE_ID')
+AIRTABLE_API_TOKEN = os.getenv('AIRTABLE_API_TOKEN')
 
 
 def main():
@@ -144,7 +147,7 @@ def createTable(fields, tableName):
     if fields != []:
         data = {"fields" : fields, "name" : tableName}
         # print(data)
-        headers = {'Authorization': f'Bearer {API_TOKEN}', 'Content-Type': 'application/json'}
+        headers = {'Authorization': f'Bearer {AIRTABLE_API_TOKEN}', 'Content-Type': 'application/json'}
         url = f'https://api.airtable.com/v0/meta/bases/{BASE_ID}/tables'
         response = requests.post(url, json=data, headers=headers)
         
@@ -157,7 +160,7 @@ def createRecord(records, tableName):
     if records != [] and tableName != "Requirements":
         # print(records)
         data = {"records" : records}
-        headers = {'Authorization': f'Bearer {API_TOKEN}', 'Content-Type': 'application/json'}
+        headers = {'Authorization': f'Bearer {AIRTABLE_API_TOKEN}', 'Content-Type': 'application/json'}
         url = f'https://api.airtable.com/v0/{BASE_ID}/{tableName}'
         
         for i in range(0, len(records), 10):
@@ -169,27 +172,4 @@ def createRecord(records, tableName):
                 print(response.text)    
                 print(data)
        
-
-def changeName(input_string, capitalCase: bool):
-    # Remove text within parentheses
-    input_string = re.sub(r'\([^)]*\)', '', input_string)
-    
-    # Convert to CapitalCase
-    input_string = input_string.title()
-    
-    # Remove leading and trailing whitespace
-    input_string = input_string.strip()
-    
-    # Replace spaces with empty string
-    input_string = input_string.replace(" ", "")
-
-
-    if capitalCase == True:
-        input_string = input_string[0].lower() + input_string[1:]
-
-    
-    return input_string
-
-
-
 main()
