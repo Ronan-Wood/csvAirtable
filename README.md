@@ -140,3 +140,7 @@ The attached file is a csv containing the following fields:
 Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have.
 The csv attached has one row of data for you to use as an example.
 Output a csv
+---
+### DEPARTMENTS
+did manually
+---
