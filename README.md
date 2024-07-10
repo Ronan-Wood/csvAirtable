@@ -141,6 +141,4 @@ Please create 10 rows of synthetic data. The csv describes training that members
 The csv attached has one row of data for you to use as an example.
 Output a csv
 ---
-### DEPARTMENTS
-did manually
----
+
