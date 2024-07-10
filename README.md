@@ -102,15 +102,18 @@ The attached file is a csv containing the following fields:
 - CertificateId (unique number starting from 2)
 - UserId (blank)
 - CategoryId (blank)
-- TitleofLicense (string, weapon name)
-- DocumentDescription (string, a brief description of the document and how it pertains to a member)
-- FileName (string, same as DocumentTitle)
+- TitleofLicense (string, weapon name (M18, Grenade, Rifle, 240B, M249) concatenated with "License" by a space)
+- CertificateDate (date MM/DD/YYYY)
+- ExpirationDate (date MM/DD/YYYY, same MM/DD as CertificateDate but two years in ahead)
+- CertificationDocument (date MM/DD/YYYY, same as CertificateDate)
 - createddate (date MM/DD/YYYY)
-- updateddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
 - createdby (blank)
 - updatedby (blank)
 - IsDelete ("checked" or blank)
+- SubCategoryId (blank)
+- GrantedBy (blank)
 
-Please create 10 rows of synthetic data. The csv describes documents assigned to members of an airforce base.
+Please create 10 rows of synthetic data. The csv describes certificates that members of an airforce base have.
 The csv attached has one row of data for you to use as an example.
 Output a csv
