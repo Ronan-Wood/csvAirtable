@@ -92,4 +92,91 @@ Output a csv
 - SubCategoryID (Blank)
 - CategoryID (Blank)
 - GrantedBy (String)
-- ExperationDate (Date MM/DD)
+- ExperationDate (Date MM/DD/YY)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### Category
+- CategoryID (Unique number stating from one)
+- CategoryName (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String)
+- UpdatedBy (String)
+- isDelete ("Checked" or Blank)
+- WorkExperince (Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### ASPNetRoles
+- ID (Unique number stating from one)
+- Name (String)
+- Description (String)
+- CreatedDate (MM/DD/YYYY)
+- UpdatedDate (MM/DD/YYYY)
+- createdBy (String - Pull from ASPNetUsers CSV)
+- UpdatedBy (String - Same as "createdBy")
+- ConcurruncyStanp (Number - Same as ID)
+- NormalizedName (String - Same as Name)
+- ShowinList ("Checked" or Blank)
+- Permissions (String)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### WorkExperince
+- WorkID (Unique number stating from one)
+- UserID (Blank)
+- JobTitle (String)
+- WorkStartDate (Date MM/DD/YYYY)
+- WorkEndDate (Date MM/DD?YYYY)
+- WordDescription (String)
+- CategoryId (Blank)
+- WorkType (String)
+- FileName (String)
+- SubCategoryId (Blank)
+- CompanyName (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### AspNetUserRoles
+- UserRoleId (Unique number stating from one)
+- UserId (Blank)
+- RoleId (Blank)
+- createdDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String- Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### CheckList
+- CheckListId (Unique number stating from one)
+- CheckListName (String)
+- CheckListType (String)
+- createdDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String- Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+###
