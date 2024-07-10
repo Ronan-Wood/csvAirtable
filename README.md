@@ -15,6 +15,7 @@ pipeline that syncs csv data from aflinx tables into airtable
 ## prompt for chatgpt to create synthetic data:
 ### ASPNETUSERS
 The attached file is a csv containing the following fields:
+
 - Id (unique number)
 - First_name (string)
 - Last_name (string)
@@ -52,8 +53,7 @@ The attached file is a csv containing the following fields:
 - AccountIsActive ("checked" or blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. 
 ---
 ### EDUCATION
 The attached file is a csv containing the following fields:
@@ -74,10 +74,11 @@ The attached file is a csv containing the following fields:
 - CategoryId (blank)D
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 --- 
 ### Designation
+The attached file is a csv containing the following fields:
+
 - DesignationID (Unique number stating from one)
 - UserId (Blank)
 - DesignationTitle (String)
@@ -95,10 +96,11 @@ Output a csv
 - ExperationDate (Date MM/DD/YY)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
 ### Category
+The attached file is a csv containing the following fields:
+
 - CategoryID (Unique number stating from one)
 - CategoryName (String)
 - CreatedDate (Date MM/DD/YYYY)
@@ -109,11 +111,11 @@ Output a csv
 - WorkExperince (Blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
-<<<<<<< HEAD
 ### ASPNetRoles
+The attached file is a csv containing the following fields:
+
 - ID (Unique number stating from one)
 - Name (String)
 - Description (String)
@@ -127,10 +129,11 @@ Output a csv
 - Permissions (String)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
 ### WorkExperince
+The attached file is a csv containing the following fields:
+
 - WorkID (Unique number stating from one)
 - UserID (Blank)
 - JobTitle (String)
@@ -149,10 +152,11 @@ Output a csv
 - isDelete ("Checked" or Blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
 ### AspNetUserRoles
+The attached file is a csv containing the following fields:
+
 - UserRoleId (Unique number stating from one)
 - UserId (Blank)
 - RoleId (Blank)
@@ -163,10 +167,11 @@ Output a csv
 - isDelete ("Checked" or Blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
 ### CheckList
+The attached file is a csv containing the following fields:
+
 - CheckListId (Unique number stating from one)
 - CheckListName (String)
 - CheckListType (String)
@@ -177,11 +182,46 @@ Output a csv
 - isDelete ("Checked" or Blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+The csv attached has one row of data for you to use as an example. Output a csv.
 ---
-###
-=======
+### CheckListTaskResponse
+The attached file is a csv containing the following fields:
+
+- TaskResponseID (Unique number stating from one)
+- TaskId (Blank)
+- CheckListID (Blank)
+- CheckListMessageId (Blank)
+- UserId (Blank)
+- YesAnswer (String)
+- NotesAnswer (String)
+- UploadAnswer (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UploadedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### DOCUMENT
+The attached file is a csv containing the following fields:
+
+- DocumentId (unique number starting from 2)
+- UserId (blank)
+- TypeofDocument (string)
+- DocumentTitle (string)
+- DocumentDescription (string, a brief description of the document and how it pertains to a member)
+- FileName (string, same as DocumentTitle)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY)
+- createdby (blank)
+- updatedby (blank)
+- IsDelete ("checked" or blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
 ### CERTIFICATE
 The attached file is a csv containing the following fields:
 
@@ -200,9 +240,7 @@ The attached file is a csv containing the following fields:
 - SubCategoryId (blank)
 - GrantedBy (blank)
 
-Please create 10 rows of synthetic data. The csv describes certificates that members of an airforce base have.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+Please create 10 rows of synthetic data. The csv describes certificates that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
 ---
 ### TRAINING
 The attached file is a csv containing the following fields:
@@ -223,9 +261,4 @@ The attached file is a csv containing the following fields:
 - GrantedBy (blank)
 - ExpirationDate (date MM/DD/YYYY, same MM/DD as EndDate but two years ahead)
 
-Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have.
-The csv attached has one row of data for you to use as an example.
-Output a csv
----
-
->>>>>>> f6bb1a45e792dd0dc1ec6f1047e4b2f142bf8e8b
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
