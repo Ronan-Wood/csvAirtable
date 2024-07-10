@@ -54,10 +54,24 @@ The attached file is a csv containing the following fields:
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
 The csv attached has one row of data for you to use as an example.
 Output a csv
-
+---
 ### EDUCATION
 The attached file is a csv containing the following fields:
 
+- EducationId (unique number starting from 1)
+- UserId (blank)
+- NameoftheAccreditedSchool (string)
+- CertificateEarned (string)
+- FieldofStudy (string)
+- GraduationYear (date MM/DD/YYYY)
+- FileName (string)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY)
+- createdby (string)
+- updatedby (string)
+- IsDelete ("checked" or blank)
+- SubCategoryId (blank)
+- CategoryId (blank)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
 The csv attached has one row of data for you to use as an example.
