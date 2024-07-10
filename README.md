@@ -58,7 +58,7 @@ Output a csv
 ### EDUCATION
 The attached file is a csv containing the following fields:
 
-- EducationId (unique number starting from 2)
+- EducationId (unique number starting from 1)
 - UserId (blank)
 - NameoftheAccreditedSchool (string)
 - CertificateEarned (string)
@@ -71,27 +71,25 @@ The attached file is a csv containing the following fields:
 - updatedby (string)
 - IsDelete ("checked" or blank)
 - SubCategoryId (blank)
-- CategoryId (blank)
+- CategoryId (blank)D
 
-Please create 10 rows of synthetic data. The csv describes the education of members of an airforce base.
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
 The csv attached has one row of data for you to use as an example.
 Output a csv
----
-### DOCUMENT
-The attached file is a csv containing the following fields:
-
-- DocumentId (unique number starting from 2)
-- UserId (blank)
-- TypeofDocument (string)
-- DocumentTitle (string)
-- DocumentDescription (string, a brief description of the document and how it pertains to a member)
-- FileName (string, same as DocumentTitle)
-- createddate (date MM/DD/YYYY)
-- updateddate (date MM/DD/YYYY)
-- createdby (blank)
-- updatedby (blank)
-- IsDelete ("checked" or blank)
-
-Please create 10 rows of synthetic data. The csv describes documents assigned to members of an airforce base.
-The csv attached has one row of data for you to use as an example.
-Output a csv
+--- 
+### Designation
+- DesignationID (Unique number stating from one)
+- UserId (Blank)
+- DesignationTitle (String)
+- DesignationDate (Date MM/DD/YYYY)
+- DesignationDescription (String)
+- FileName (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String)
+- UpdatedBy (String)
+- isDelete ("Checked" or Blank)
+- SubCategoryID (Blank)
+- CategoryID (Blank)
+- GrantedBy (String)
+- ExperationDate (Date MM/DD)
