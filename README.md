@@ -95,3 +95,22 @@ The attached file is a csv containing the following fields:
 Please create 10 rows of synthetic data. The csv describes documents assigned to members of an airforce base.
 The csv attached has one row of data for you to use as an example.
 Output a csv
+---
+### CERTIFICATE
+The attached file is a csv containing the following fields:
+
+- CertificateId (unique number starting from 2)
+- UserId (blank)
+- CategoryId (blank)
+- TitleofLicense (string, weapon name)
+- DocumentDescription (string, a brief description of the document and how it pertains to a member)
+- FileName (string, same as DocumentTitle)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY)
+- createdby (blank)
+- updatedby (blank)
+- IsDelete ("checked" or blank)
+
+Please create 10 rows of synthetic data. The csv describes documents assigned to members of an airforce base.
+The csv attached has one row of data for you to use as an example.
+Output a csv
