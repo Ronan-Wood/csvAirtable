@@ -191,6 +191,7 @@ The attached file is a csv containing the following fields:
 - TaskId (Blank)
 - CheckListID (Blank)
 - CheckListMessageId (Blank)
+- CheckListUserId (Blank) 
 - UserId (Blank)
 - YesAnswer (String)
 - NotesAnswer (String)
@@ -200,6 +201,150 @@ The attached file is a csv containing the following fields:
 - CreatedBy (String - Combind First and Last Name from AspNetUsers)
 - UpdatedBy (String - Same as CreatedBy)
 - isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### CheckListTasks
+The attached file is a csv containing the following fields:
+
+- TaskId (Unique number stating from one)
+- CheckListId (Blank)
+- TaskName (String)
+- TaskNote (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- ShowYes ("Checked" or Blank)
+- ShowNotes ("Checked" or Blank)
+- Show Upload ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### Survey
+The attached file is a csv containing the following fields:
+
+- SurveyId (Unique number stating from one)
+- SurveyName (String)
+- SurveyDescription (String)
+- SurveyType (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- SurveyChoices (Blank)
+- SurveyChoicesReponse (Blank)
+- Communication (Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### MessageGroups
+The attached file is a csv containing the following fields:
+
+- MessageGroupsId (Unique number stating from one)
+- MessageGroupName (String)
+- MessageGroupDescription (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- Communication (Blank)
+- MessageGroupUsers (Blank)
+- AppMessageUsers (Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### SurveyChoices
+The attached file is a csv containing the following fields:
+
+- ChoiceId (Unique number stating from one)
+- SurveyId (Blank)
+- Question (String)
+- QuestionType (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- QuestionNumber (Number)
+- SurveyChoiceOptions (Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### SurveyChoiceOptions
+The attached file is a csv containing the following fields:
+
+- ChoiceOptionId (Unique number stating from one)
+- ChoiceId (Blank)
+- ChoiceName (String)
+- ChoiceTest (String)
+- ChoiceImage (String)
+- ChoiceStars (String)
+- ChoiceType (String)
+- ChoiceNote (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- ChoiceNumber (Number)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### SurveyChoicesResponse
+The attached file is a csv containing the following fields:
+
+- ChoiceResponseId (Unique number stating from oneg)
+- ChoiceId (Blank)
+- SurveyId (Blank)
+- SurveyMessageId (Blank)
+- SurveyUserId (Blank) 
+- UserId (Blank)
+- UserResponse (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+
+Please create 10 rows of synthetic data. The csv describes members of an airforce base.
+The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### Communication
+The attached file is a csv containing the following fields:
+
+- CommunicationId (Unique number stating from one)
+- CommunicationIdCategory (String)
+- UserId (Blank)
+- MessageGroupId (Blank)
+- Title (String)
+- CommunicationIdType (String)
+- NudgeMessage (String)
+- ReqId (Blank)
+- ReqSlotId (Blank)
+- CommunicationIdDate (Date MM/DD/YYYY)
+- Link (String)
+- SurveryId (Blank)
+- CheckListId (Blank)
+- Urgent (String)
+- Status (String)
+- CreatedDate (Date MM/DD/YYYY)
+- UpdatedDate (Date MM/DD/YYYY)
+- CreatedBy (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- isDelete ("Checked" or Blank)
+- SendTo (String)
+- ScheduleMessage (String)
+- CommunicationDocument (String)
 
 Please create 10 rows of synthetic data. The csv describes members of an airforce base.
 The csv attached has one row of data for you to use as an example. Output a csv.
@@ -260,5 +405,39 @@ The attached file is a csv containing the following fields:
 - CategoryId (blank)
 - GrantedBy (blank)
 - ExpirationDate (date MM/DD/YYYY, same MM/DD as EndDate but two years ahead)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### SubCategory
+The attached file is a csv containing the following fields:
+
+- SubCategoryId (unique number starting from 2)
+- CategoryId (Blank)
+- SubCategoryName (String - Categories related to big Categories (Operations, Medical, Mecanical, Etc.))
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+- WorkExperience (Blank)
+- Education (Blank)
+- Designation (Blank)
+- Certificate (Blank)
+- Training_AFLINX (Blank)
+- License (Blank)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### MessagePollOptions
+The attached file is a csv containing the following fields:
+
+- PollOptionId (unique number starting from 2)
+- MessageDetailId (Blank)
+- PollOptionName (String)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
 
 Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
