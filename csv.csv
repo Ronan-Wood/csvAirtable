@@ -1,11 +1,11 @@
-CommunicationId,CommunicationIdCategory,UserId,MessageGroupId,Title,CommunicationIdType,NudgeMessage,ReqId,ReqSlotId,CommunicationIdDate,Link,SurveryId,CheckListId,Urgent,Status,CreatedDate,UpdatedDate,CreatedBy,UpdatedBy,isDelete,SendTo,ScheduleMessage,CommunicationDocument
-1,Announcement,, ,Safety Drill,Email,Please take action immediately.,,,,01/15/2023,https://example.com/1357,,,Yes,Sent,01/15/2023,02/14/2023,John Jacob Jingleheimer-Schmidt,John Jacob Jingleheimer-Schmidt,checked,All Personnel,Scheduled for next week.,doc1.pdf
-2,Reminder,, ,Medical Checkup,SMS,Reminder: Don’t forget to check.,,,,03/12/2023,https://example.com/2468,,,No,Pending,03/12/2023,04/11/2023,Deborah Sosa,Deborah Sosa,,Medical Staff,To be sent tomorrow.,doc2.pdf
-3,Update,, ,Flight Schedule Update,Push Notification,New update available. Please review.,,,,05/10/2023,https://example.com/3579,,,Yes,Failed,05/10/2023,06/09/2023,Mackenzie Smith,Mackenzie Smith,checked,Flight Crew,Immediate dispatch.,doc3.pdf
-4,Announcement,, ,Maintenance Alert,Email,Urgent: Immediate attention required.,,,,07/08/2023,https://example.com/4680,,,No,Sent,07/08/2023,08/07/2023,Samantha Herman,Samantha Herman,,,Maintenance Team,Postponed.,doc4.pdf
-5,Reminder,, ,Security Update,SMS,FYI: Important information.,,,,09/06/2023,https://example.com/5791,,,Yes,Pending,09/06/2023,10/05/2023,Thomas Oconnell,Thomas Oconnell,checked,Security Personnel,Scheduled for next month.,doc5.pdf
-6,Announcement,, ,Safety Drill,Email,Please take action immediately.,,,,11/04/2023,https://example.com/1357,,,Yes,Sent,11/04/2023,12/03/2023,John Jacob Jingleheimer-Schmidt,John Jacob Jingleheimer-Schmidt,checked,All Personnel,Scheduled for next week.,doc1.pdf
-7,Reminder,, ,Medical Checkup,SMS,Reminder: Don’t forget to check.,,,,01/02/2024,https://example.com/2468,,,No,Pending,01/02/2024,02/01/2024,Deborah Sosa,Deborah Sosa,,Medical Staff,To be sent tomorrow.,doc2.pdf
-8,Update,, ,Flight Schedule Update,Push Notification,New update available. Please review.,,,,03/02/2024,https://example.com/3579,,,Yes,Failed,03/02/2024,04/01/2024,Mackenzie Smith,Mackenzie Smith,checked,Flight Crew,Immediate dispatch.,doc3.pdf
-9,Announcement,, ,Maintenance Alert,Email,Urgent: Immediate attention required.,,,,05/01/2024,https://example.com/4680,,,No,Sent,05/01/2024,05/31/2024,Samantha Herman,Samantha Herman,,,Maintenance Team,Postponed.,doc4.pdf
-10,Reminder,, ,Security Update,SMS,FYI: Important information.,,,,06/29/2024,https://example.com/5791,,,Yes,Pending,06/29/2024,07/29/2024,Thomas Oconnell,Thomas Oconnell,,,Security Personnel,Scheduled for next month.,doc5.pdf
+SubCategoryId,CategoryId,SubCategoryName,createddate,updateddate,createdby,UpdatedBy,IsDelete,WorkExperience,Education,Designation,Certificate,Training_AFLINX,License
+2,,Aircraft Maintenance,01/15/2023,01/15/2023,John Jacob Jingleheimer-Schmidt,John Jacob Jingleheimer-Schmidt,checked,,,,,,
+3,,Emergency Medicine,03/12/2023,03/12/2023,Deborah Sosa,Deborah Sosa,,,,,,,
+4,,Flight Operations,05/10/2023,05/10/2023,Mackenzie Smith,Mackenzie Smith,checked,,,,,,
+5,,Logistics Management,07/08/2023,07/08/2023,Samantha Herman,Samantha Herman,,,,,,,
+6,,Base Security,09/06/2023,09/06/2023,Thomas Oconnell,Thomas Oconnell,checked,,,,,,
+7,,Technical Support,11/04/2023,11/04/2023,John Jacob Jingleheimer-Schmidt,John Jacob Jingleheimer-Schmidt,checked,,,,,,
+8,,Medical Supplies,01/02/2024,01/02/2024,Deborah Sosa,Deborah Sosa,,,,,,,
+9,,Navigation Systems,03/02/2024,03/02/2024,Mackenzie Smith,Mackenzie Smith,checked,,,,,,
+10,,Safety Protocols,05/01/2024,05/01/2024,Samantha Herman,Samantha Herman,,,,,,,
+11,,Administrative Support,06/29/2024,06/29/2024,Thomas Oconnell,Thomas Oconnell,,,,,,,
