@@ -543,3 +543,45 @@ The attached file is a csv containing the following fields:
 - SurveyChoicesResponse (Blank)
 
 Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+
+### REQUIREMENTS
+The attached file is a csv containing the following fields:
+
+- Id (unique number starting from 2)
+- ReqName (string)
+- AppointmentType (string)
+- Speciality (string)
+- Status ("GO" or "HOLD")
+- Notes (a short report about the appointment)
+- RecordStatus ("Good" or "Bad")
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (blank)
+- updatedby (blank)
+- IsDelete ("checked" or blank)
+
+Please create 5 rows of synthetic data. The csv describes the medical requirements members of an airforce base would need.
+The csv attached has one row of data for you to use as an example.
+Output a csv
+---
+### SLOTS
+The attached file is a csv containing the following fields:
+
+- Id (unique number starting from 2)
+- ReqId (blank)
+- SlotDateTime (date MM/DD/YYYY)
+- SlotCapacity (number)
+- SlotUsed (number, less than or equal to SlotCapacity, greater than 0)
+- SupervisorAccess ("checked" or blank)
+- AppUserAccess ("checked" or blank)
+- SlotNote ("Filled" if SlotUsed == SlotCapacity, "Half" if 0 <  SlotUsed < SlotCapacity, "Empty" if SlotUsed == 0)
+- RecordStatus ("Good" or "Bad")
+- CreatedDate (date MM/DD/YYYY)
+- PpdatedDate (date MM/DD/YYYY, same as createddate)
+- createdby (blank)
+- updatedby (blank)
+- IsDelete ("checked" or blank)
+
+Please create 8 rows of synthetic data. The csv describes the slots set up for appointments that members of an airforce base would have.
+The csv attached has 2 rows of data for you to use as an example.
+Output a csv
