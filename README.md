@@ -441,3 +441,105 @@ The attached file is a csv containing the following fields:
 - IsDelete ("checked" or blank)
 
 Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### CheckListMessage
+The attached file is a csv containing the following fields:
+
+- Id (unique number starting from 2)
+- SendTo (String - String - Combind First and Last Name from AspNetUsers)
+- MessageText (String - What they are to do.)
+- ScheduleMessage ("checked" or blank)
+- SendDate (Date MM/DD/YYYY)
+- CheckListId (Blank)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers - Diffrent than SentTo)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+- Status (Single Select - Read or Unread)
+- MessageTitle (String - Related to MessageText)
+- CheckListTaskResponse (Blank)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### License
+The attached file is a csv containing the following fields:
+
+- LicensesId (unique number starting from 2)
+- UserId (Blank)
+- LicenseTitle (String)
+- LicenseDate (Date MM/DD/YYYY)
+- LicenseExpireDate (Date MM/DD/YYYY)
+- File Name (String)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers - Diffrent than SentTo)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+- SubCategoryId (Blank)
+- CategoryId (Blank)
+- GrantedBy (String - Name from AspNextUser - Diffrent from CreatedBy)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### MessageUsers
+The attached file is a csv containing the following fields:
+
+- MessageUserId (unique number starting from 2)
+- MessageDetailId (Blank)
+- MessageGroupId (Blank)
+- UserId (Blank)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers - Diffrent than SentTo)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+- isSent ("checked" or blank)
+- SentTime (date MM/DD/YYYY)
+- isError ("checked" or blank)
+- ErrorDetail (String)
+- Status (String)
+- UserResponse (String)
+- ReadCount (Number)
+- PollAnswer (String)
+- MessageStatus (String)
+- AppMessageUser (Blank)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### Speciality
+The attached file is a csv containing the following fields:
+
+- Id (unique number starting from 2)
+- Name (String)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY, same as createddate)
+- createdby (String - Combind First and Last Name from AspNetUsers - Diffrent than SentTo)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
+---
+### SurveyMessageUsers
+The attached file is a csv containing the following fields:
+
+- SurveyUserId (unique number starting from 2)
+- SurveyMessageId (Blank)
+- GroupId (Blank)
+- UserId (Blank)
+- createddate (date MM/DD/YYYY)
+- updateddate (date MM/DD/YYYY)
+- createdby (String - Combind First and Last Name from AspNetUsers - Diffrent than SentTo)
+- UpdatedBy (String - Same as CreatedBy)
+- IsDelete ("checked" or blank)
+- isSent ("checked" or blank)
+- SentTime (date MM/DD/YYYY)
+- isError ("checked" or blank)
+- ErrorDetail (String)
+- Status (String)
+- UserResponse (String)
+- Readcount (Number)
+- MessageStatus (String)
+- SurveyChoicesResponse (Blank)
+
+Please create 10 rows of synthetic data. The csv describes training that members of an airforce base have. The csv attached has one row of data for you to use as an example. Output a csv.
