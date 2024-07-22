@@ -27,7 +27,7 @@ tableName = 'Slots'
 dates = ["2024-07-27","2024-07-28","2024-08-03","2024-08-04"]
 startTimes = ["T12:30:00.000Z", "T13:00:00.000Z","T13:30:00.000Z","T14:00:00.000Z","T15:00:00.000Z","T15:30:00.000Z","T16:00:00.000Z","T16:30:00.000Z","T17:00:00.000Z","T17:30:00.000Z","T18:00:00.000Z","T18:30:00.000Z","T19:00:00.000Z","T19:30:00.000Z",]
 endTimes = ["T12:50:00.000Z", "T13:20:00.000Z","T13:50:00.000Z","T14:20:00.000Z","T15:20:00.000Z","T15:50:00.000Z","T16:20:00.000Z","T16:50:00.000Z","T17:20:00.000Z","T17:50:00.000Z","T18:20:00.000Z","T18:50:00.000Z","T19:20:00.000Z","T19:50:00.000Z",]
-types = ['recDFrteJnzkwTIWK','recaadD9L8yBuKasZ','rec4Mpqh8WBMUtqjl','recdLSWHgaw1ftIzF','recq5FlEkZtM5rEEL','recPi2knZzdZPaPXz']
+apptTypes = ['recDFrteJnzkwTIWK','recaadD9L8yBuKasZ','rec4Mpqh8WBMUtqjl','recdLSWHgaw1ftIzF','recq5FlEkZtM5rEEL','recPi2knZzdZPaPXz']
 
 def create():
     headers = {
@@ -38,7 +38,7 @@ def create():
 
     for date in dates:
         for startTime, endTime in zip(startTimes, endTimes):
-            for type_id in types:
+            for type_id in apptTypes:
                 data = {
                     "fields": {
                         'AppointmentType': [type_id], 
