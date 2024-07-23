@@ -1,21 +1,3 @@
-
-
-# def create():
-    #headers = {'Authorization': f'Bearer {AIRTABLE_API_TOKEN}', 'Content-Type': 'application/json'}
-    #url = f'https://api.airtable.com/v0/{BASE_ID}/{tableName}'
-
-    #data = {
-    #    "fields": {'AppointmentType': ['recDFrteJnzkwTIWK'], 'Start Time': "2024-07-26T16:30:00.000Z" }
-    #}
-    #response = requests.post(url, headers=headers, json=data)
-
-    #if response.status_code == 200:
-    #    print('New row created successfully!')
-    #    return response.json()['id']
-    #else:
-    #    print(f'Failed to create row: {response.status_code}, {response.text}')
-    #    return None
-
 from dotenv import load_dotenv
 import os, requests
 
